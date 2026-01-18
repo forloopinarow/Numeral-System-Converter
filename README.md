@@ -10,4 +10,6 @@ If that doesn't work, try:
 java -cp target/BaseConversion-1.0-SNAPSHOT.jar org.example.BaseConverter
 ```
 
+Nvm pretty sure mvn javafx:run doesnt work, its 3:39 for me so I will not be trying to figure out the problem at this time
+
 Wouldnt recommend using this since the terminal is btter anyways and im not finished with this yet
