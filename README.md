@@ -1,3 +1,7 @@
+# Important
+
+The Install instructions were only tested on a unix based system (Debian), the exact same commands wont work on another type of system,
+
 # Numeral System Converter
 
 Java program that converts numbers between different numeral systems (bases 2-36).
@@ -78,3 +82,34 @@ source ~/.bashrc
 ```
 
 Now you can just type `numeral-converter` into any terminal i think
+
+## Uninstall
+
+If you want to remove the project from your system:
+
+### 1. Delete the project files
+```bash
+rm -rf ~/Numeral-System-Converter
+```
+
+### 2. Delete the script (if you created one)
+```bash
+rm ~/.local/bin/numeral-converter
+```
+
+### 3. (Optional) Remove from PATH
+
+If you want to clean up your `.bashrc`, open it:
+```bash
+nano ~/.bashrc
+```
+
+Find and delete this line:
+```bash
+export PATH="$HOME/.local/bin:$PATH"
+```
+
+Then reload:
+```bash
+source ~/.bashrc
+```
