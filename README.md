@@ -1,4 +1,4 @@
-# Java FX
+# Java FX (Eveythings a bit scuffed, didnt properly manage the files, will try to fix, lwky just ignore everything under this)
 
 The install process shouldnt have changed from the main branch read me, only diffrence that could appear at 4. is that it might not work, Try this first (using Maven's JavaFX plugin):
 ```bash
