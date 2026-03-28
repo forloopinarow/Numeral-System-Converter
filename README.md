@@ -1,4 +1,4 @@
-Lwky read me mit ki gemacht, zu tot selber zu machen
+Bin zufrieden damit, ka
 
 # Numeral System Converter
 
@@ -12,16 +12,18 @@ It doesnt really have any error handling, can be usefull for stuff like homework
 
 - Converts any number to decimal
 - Converts decimal numbers to any base between 2 and 36
-- Supports common bases like binary (2), octal (8), decimal (10), and hexadecimal (16) and anything in between
+- Supports common bases like binary (2), octal (8), decimal (10), and hexadecimal (16) and anything in between and up to 36?
 
 ## Requirements
+
+No idea, i used it on java 21 and it worked
 
 - Java 21 or higher
 - Maven 3.x
 
 ## Installation
 
-You could just paste it into any IDE and run it from there I think, but this way you can start the programm in the terminal
+You could just paste it into any IDE and run it from there I think, but this way you can start the programm in the terminal (I only tested it on debian)
 
 ### 1. Clone the repository
 ```bash
@@ -33,7 +35,7 @@ cd Numeral-System-Converter
 
 If you're using Java 21, edit `pom.xml` and change the compiler source and target from `25` to `21`:
 
-Nano is a pretty good choice, quite simple to use
+Just use your editor of choice, i used nano
 
 ```xml
 <maven.compiler.source>21</maven.compiler.source>
@@ -42,7 +44,7 @@ Nano is a pretty good choice, quite simple to use
 
 (Pretty sure these instructions are wrong, cant figure out the problem rn, please just ask Claude or someone for help, the main problem here is that maven is compiling 25, and the programm was written in 21 I think, just switch 21 with the version youre using, but you cant use a version under 21, since java cant compile code written under java 21 since the code was written in 21, only works down i think)
 
-(Maybe just ask AI for this part, since I dont quite understand it aswell, im just guessing half of the stuff here rn)
+(Maybe just ask claude for this part, since I dont quite understand it aswell, im just guessing half of the stuff here rn)
 
 ### 3. Build the project
 ```bash
@@ -54,7 +56,7 @@ mvn clean package
 java -cp target/BaseConversion-1.0-SNAPSHOT.jar org.example.Main
 ```
 
-## Optional: Run from any terminal directory I think
+## Optional: Run from any terminal directory (It worked for me, no guarantees tho)
 
 1. Create a script:
 ```bash
@@ -79,7 +81,7 @@ echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.bashrc
 source ~/.bashrc
 ```
 
-Now you can just type `numeral-converter` into any terminal i think
+Now you can just type `numeral-converter` into any terminal I believe
 
 ## Uninstall
 
