@@ -1,6 +1,4 @@
-# Important
-
-The Install instructions were only tested on a unix based system (Debian), the exact same commands wont work on another type of system,
+Lwky read me mit ki gemacht, zu tot selber zu machen
 
 # Numeral System Converter
 
