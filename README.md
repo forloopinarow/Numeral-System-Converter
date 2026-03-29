@@ -1,5 +1,3 @@
-Bin zufrieden damit, ka
-
 # Numeral System Converter
 
 Java program that converts numbers between different numeral systems (bases 2-36).
