@@ -40,6 +40,8 @@ Just use your editor of choice, i used nano
 <maven.compiler.target>21</maven.compiler.target>
 ```
 
+Yeah nvm you have to do it I think, no Idea why tho, but as of now it worked when I used Debian
+
 (Pretty sure these instructions are wrong, cant figure out the problem rn, please just ask Claude or someone for help, the main problem here is that maven is compiling 25, and the programm was written in 21 I think, just switch 21 with the version youre using, but you cant use a version under 21, since java cant compile code written under java 21 since the code was written in 21, only works down i think)
 
 (Maybe just ask claude for this part, since I dont quite understand it aswell, im just guessing half of the stuff here rn)
